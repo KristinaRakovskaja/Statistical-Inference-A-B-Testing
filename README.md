@@ -12,4 +12,4 @@ Analyze the A/B test and provide recommendations. Follow this structure:
 - The dataset is aggregated by **LocationID**, **PromotionID**, and **week**. You should aggregate by **LocationID** and **PromotionID** before conducting the statistical tests.
 - Since there are three marketing campaigns and you have to select the best-performing one, you will have to conduct several tests, comparing campaigns against one another. This kind of testing is known as pairwise comparisons, and it suffers from the multiple testing problem - if we run a lot of tests, there’s an increased chance of getting a type I error (false positive). It is, therefore, suggested to use the confidence level of 99% instead of the traditional 95% in your graded task.
 
-### You can find a full analysis in the PDF document attached.
+### The full analysis is available in the attached PDF document.
